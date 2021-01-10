@@ -1,9 +1,13 @@
-*{
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+#head{
+    color: rgb(165, 120, 201);
+    font-weight: bolder;
+    font-style: oblique;
+    text-shadow: burlywood;
+    padding: 20px;
 }
+
 body{
-    background-color: whitesmoke;
+    background-color: rgb(43, 148, 209);
     color:  #17421D;
 }
 .container{
@@ -18,14 +22,16 @@ body{
 .banner{
     display: block;
     width: 100%;
-    height: 250px;
-    text-align: center;
+    height: 300px;
+    text-align-last: center;
     font-size: xx-large;
-    background-image : url("/static/img/chip1.jpg");
+    background-image : url("/static/img/cchip2.jpeg");
     background-size:cover;
     margin: 0px 0px 0px 0px;
-    padding-top: 150px;
-    color: #17421D;
+    padding-top: 190px;
+    color: rgb(43, 255, 0);
+    font-family: 'langar';
+    font-weight: bolder;
 }
 
 .menu{
@@ -64,6 +70,7 @@ body{
 .homecontent{
     min-height: 500px;
     margin: 10px 10px 10px 10px;
+    background-color: rgb(20, 19, 19);
 }
 .homecontent h1{
     text-align: left;    
@@ -77,6 +84,8 @@ body{
 
 .contenttext{
     text-align: justify;
+    font-family: 'mark';
+    font-family: cursive;
 }
 
 .productcontent{
@@ -95,13 +104,14 @@ body{
 .productitem{
     display: inline-block;
     width: 30%;
-    height: 250px;
+    height: 270px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .productitem img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 220px;
     display: block;
 }
 .productitem .itemimage{
@@ -114,9 +124,19 @@ body{
 
 .productitem .itemname{
     display: block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-left: 20px;
 }
 .productitem .itemprice{
     display: block;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 21px;
 }
 
 .footer{
@@ -129,3 +149,11 @@ body{
     margin: 0px 0px 0px 0px;
     color: rgb(218, 214, 214);
 }
+
+a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+}
+
+
